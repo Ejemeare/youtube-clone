@@ -10,7 +10,7 @@ aside{
     margin: 0;
 }
 #logo{
-    width: 10rem;
+    width: 8rem;
 }
 #ham-btn{
     width: 3rem;
@@ -80,7 +80,7 @@ nav .ri-fw{
     position: sticky;
     left: 15%;
     background-color: rgba(255, 255, 255, 0.9);
-    font-size: 1.1rem;
+    font-size: 1rem;
     z-index: 2023;
     overflow: hidden;
 }
@@ -104,16 +104,31 @@ nav .ri-fw{
     list-style: none;
     width: 16%;
     position: fixed;
+    top: 4.5rem;
     left: 0;
     height: 100%;
     line-height: 2.7rem;
-    font-size: 1.2rem;
-    z-index: 2020;
+    font-size: 1rem;
+    z-index: 2030;
     background-color: white;
     margin-left: 0;
     padding-right: 2rem;
-    font-size: 1.2rem;
     overflow: scroll;
+}
+.icon, aside .ri-fw{
+    font-size: 1.3rem;
+    width: 2rem ;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 0.5rem 1.5rem 0 0;
+}
+.yicon{
+    padding: 0;
+    margin: 0;
+    margin-right: 0.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
 }
 aside ul{
     width: 100%;
@@ -188,13 +203,7 @@ li{
     display: flex;
     align-items: center;
 }
-.icon, aside .ri-fw{
-    font-size: 1.6rem;
-    width: 2rem ;
-    height: 2rem;
-    border-radius: 50%;
-    margin: 0.5rem 1.5rem 0 0;
-}
+
 #video-lib{
     margin: 0;
     padding: 0;
@@ -230,12 +239,12 @@ li{
 
 .video-title p{
     color: rgba(19, 18, 18, 0.774);
-    font-size:0.9rem;
+    font-size:0.8rem;
     width: 100%;
 }
 .video-title strong{
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 100%;
 }
 .videos{
@@ -275,11 +284,11 @@ li{
     background-color: rgb(229,229,229);
 }
 #side-bar2 .ri-fw{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 0.5rem;
 }
 .bar p{
-    font-size: 0.7rem
+    font-size: 0.5rem
 }
 .button-group{
     display: flex;
@@ -294,7 +303,7 @@ li{
     border-radius: 0;
     margin: 0 auto 0.2rem;
     background-color: rgb(237,237,237);
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     width: 80%;
     display: flex;
     align-items: center;
@@ -323,7 +332,7 @@ li{
         padding: 1rem 1rem 0 1rem
     }
     #logo{
-        width: 7rem;
+        width: 5rem;
     }
     #searchbar{
         width: 30rem;
@@ -364,20 +373,20 @@ li{
         width: 10%;
     }
     #logo{
-        width: 7rem;
+        width: 5rem;
     }
     #searchbar{
         width: 15rem;
     }
     nav .ri-fw{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin: 1rem;
     }
     #video-lib{
         grid-template-columns: 1fr 1fr;
     }
     #suggestions{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         width: 90%;
     }
     .videos:hover{
@@ -407,7 +416,7 @@ li{
 @media(max-width:44rem){
     #center{display: none;}
     nav .ri-fw{
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             margin: 0.9rem;
     }
     #video-lib{
@@ -421,10 +430,10 @@ li{
 }
 @media(max-width:27rem){
     #logo{
-        width: 5rem;
+        width: 4rem;
     }
     nav .ri-fw{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin: 0.9rem;
     }
     #center{
