@@ -63,6 +63,9 @@ nav .ri-fw{
 #end{
     display: flex;
 }
+#center{
+    margin-bottom: 0.5rem;
+}
 #profilepic{
     border-radius: 50%;
     border: 1px white;
@@ -339,6 +342,7 @@ li{
     }
     #video-lib{
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 2rem 1rem;
     }
     #side-bar{
         display: none;
@@ -367,6 +371,8 @@ li{
 @media(max-width:56rem){
     #side-bar{
         display: none;
+        position: absolute;
+        width: 0;
     }
     #side-bar2{
         display: block;
@@ -389,6 +395,9 @@ li{
         font-size: 0.8rem;
         width: 90%;
     }
+    .videos{
+        transition: none;
+    }
     .videos:hover{
         background-color: transparent;
         transform:none;
@@ -397,12 +406,16 @@ li{
         margin: 0;
         box-shadow: none;
     }
+    .videos:hover .button-group{
+        display: none;
+        transition: none;
+    }
 }
 @media(max-width:49.13rem){
     #side-bar2{
         display: none;
         width: 0;
-        position: relative;
+        position: absolute;
         z-index: 0;
     }
     #suggestions{
@@ -410,8 +423,17 @@ li{
     }
     #video-lib{
         width: 100%;
-        margin: 0;
+        margin: 0 auto;
+        gap: 1rem;
+        padding: 1.5rem 0;
     }
+    .videos{
+        margin: 0 auto;
+    }
+    .videos a{
+        margin: 0 auto;
+    }
+    
 }
 @media(max-width:44rem){
     #center{display: none;}
