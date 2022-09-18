@@ -66,6 +66,7 @@ nav .ri-fw{
 }
 .mic .ri-fw{
     margin: 0;
+    
 }
 #end{
     display: flex;
@@ -287,13 +288,16 @@ video{
     color: rgb(102, 101, 101);
     font-size: 0.8rem;
 }
-
 @media(max-width:75rem){
-    main{
-        display: flex;
-        flex-direction: column;
+    #suggestions a{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(242,242,242);
+        border: 1px grey;
+        border-radius: 30px;
+        margin: 0.2rem;
+        padding: 0.5rem 0.4rem;
         font-size: 1rem;
-        margin: 1.5rem;
     }
     nav{
         padding: 1rem 1rem 0 1rem;
@@ -303,7 +307,21 @@ video{
     }
     #searchbar{
         width: 30rem;
+        
     }
+    
+    
+
+}
+
+@media(max-width:65rem){
+    main{
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        margin: 1.5rem;
+    }
+    
     #left-side{
         width: 100%;
     }
@@ -311,9 +329,9 @@ video{
         width: 100%;
     }
     .thumbnail{
-        width: 100%;
-        height: 35rem;
-        margin: 0 auto;
+        width: 17.7rem;
+        height: 10rem;
+        margin: 0 1.5rem 0.7rem 0;
     }
     #video-name{
         font-size: 1.2rem;
@@ -332,15 +350,88 @@ video{
         width: 100%;
         margin: 0;
     }
-    .thumbnail{
-        height: 10rem;
-        margin-right: 1rem;
+    
+    #center{
+        display: none;
+    }
+    
+    #side-bar3 hr{
+        width: 90%;
+        margin: 0.3rem auto;
+    }
+    #side-bar3 li a,strong{
+        padding: 0 0.5rem;
+    }
+    
+    .icon, aside .ri-fw{
+        font-size: 1.3rem;
+        width: 2rem ;
+        height: 2rem;
+        border-radius: 50%;
+        margin: 0.5rem 1.5rem 0 0;
+    }
+      
+ul{
+    width: 100%;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+    .yicon{
+        padding: 0;
+        margin: 0;
+        margin-right: 0.2rem;
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+    }
+    .sub{
+        display: flex;
+        flex-direction: row;
+    }
+    #short{
+        width: 1.2rem;
+    }
+    aside ul{
+        width: 100%; 
+        padding: 0;
+    }
+    aside li a{
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        padding-left: 0;
+    }
+    aside a:hover{
+        background-color: rgb(229,229,229);
+        color: #000;
+    }
+   
+}
+@media(max-width:40rem){
+    #logo{
+        width: 6rem;
+    }
+    nav .ri-fw{
+        font-size: 1.3rem;
+        margin: 0.9rem;
+    }
+    #profilepic{
+        width: 1.7rem;
+        height: 1.7rem;
     }
 }
-@media(max-width:65rem){
-    #searchbar{
-        width: 10rem;
+
+@media(max-width:30rem){
+    #vid-info{
+        display: flex;
+        flex-direction: column
     }
+   #channel-info{
+    flex-direction: column;
+   } 
 }
 @media(max-width:27rem){
     #logo{
@@ -353,13 +444,7 @@ video{
     #center{
         display: none;
     }
-    #vid-info{
-        display: flex;
-        flex-direction: column
-    }
-   #channel-info{
-    flex-direction: column;
-   } 
+   
    #subscribe{
     width: 35%;
    }
