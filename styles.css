@@ -488,13 +488,13 @@ li{
         grid-template-columns: 1fr;
         padding: 2rem 0;
         width: 100%;
-        gap: 1.5rem;
+        gap: 3rem;
     }
     #suggestions{
         display: none;
     }
     .videos{
-        margin: 0 auto;
+        margin-bottom: 0.5rem;
         padding: 0;
         width: 100%; 
         height: 18.2rem;
