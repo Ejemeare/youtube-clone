@@ -52,6 +52,9 @@ nav .ri-fw{
 #searchbar{
     width: 40rem;
 }
+#center{
+    margin-bottom: 0.3rem;
+}
 .mic{
     border: 2px grey;
     border-radius: 50%;
@@ -100,7 +103,7 @@ video{
     text-decoration: none;
 }
 #video-name{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 #vid-info{
@@ -228,8 +231,8 @@ video{
 } */ 
 
 #right-side{
-    width: 27%;
-    margin-left: 1%;
+    width: 29%;
+    margin-left: 1.5rem;
 
 }
 #suggestions{
@@ -278,11 +281,11 @@ video{
 
 .videos strong{
     color: black;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .videos p{
     color: rgb(102, 101, 101);
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 @media(max-width:75rem){
