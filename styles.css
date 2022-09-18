@@ -488,7 +488,7 @@ li{
         grid-template-columns: 1fr;
         padding: 2rem 0;
         width: 100%;
-        gap: 0;
+        gap: 1.5rem;
     }
     #suggestions{
         display: none;
