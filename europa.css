@@ -22,6 +22,10 @@ aside{
     border-radius: 50%;
     background-color: rgb(242,242,242);
 }
+#side-bar3{
+    z-index: 2024;
+    padding-top: 3rem;
+}
 header{
     width: 100%;
     display: flex;
